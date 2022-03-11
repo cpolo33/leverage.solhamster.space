@@ -40,7 +40,7 @@ module.exports = {
         'dark-theme': {
           yellow: {
             DEFAULT: '#2ABDD2',
-            dark: '#E4AF11',
+            dark: '#2ABDD2',
           },
           red: { DEFAULT: '#CC2929', dark: '#AA2222', muted: '#571e20' },
           green: { DEFAULT: '#5EBF4D', dark: '#4BA53B', muted: '#365D31' },
