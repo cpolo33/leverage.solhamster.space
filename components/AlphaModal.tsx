@@ -53,7 +53,7 @@ const AlphaModal = ({
           <div className="flex items-center justify-center space-x-8">
             <img
               className={`h-12 w-auto`}
-              src="/assets/icons/logo.svg"
+              src="/assets/icons/hams.png"
               alt="next"
             />
           </div>

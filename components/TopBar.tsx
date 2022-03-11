@@ -59,7 +59,7 @@ const TopBar = () => {
                 >
                   <img
                     className={`h-8 w-auto`}
-                    src="/assets/icons/logo.svg"
+                    src="/assets/icons/hams.png"
                     alt="next"
                   />
                 </div>
@@ -90,17 +90,8 @@ const TopBar = () => {
                       <LightBulbIcon className="h-4 w-4" key="learn" />,
                     ],
                     [
-                      'Mango v2',
-                      'https://v2.mango.markets',
-                      true,
-                      <MangoIcon
-                        className="h-4 w-4 stroke-current"
-                        key="mango-v2"
-                      />,
-                    ],
-                    [
-                      'Mango v1',
-                      'https://v1.mango.markets',
+                      'HAMS Dex',
+                      'https://dex.solhamster.space/',
                       true,
                       <MangoIcon
                         className="h-4 w-4 stroke-current"

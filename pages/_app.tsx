@@ -111,7 +111,7 @@ const PageTitle = () => {
 
   return (
     <Head>
-      <title>{marketTitleString}Mango Markets</title>
+      <title>{marketTitleString}HAMS Leverage</title>
     </Head>
   )
 }
@@ -120,17 +120,17 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Mango Markets</title>
+        <title>HAMS Leverage</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Mango Markets" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
-          content="Mango Markets, Serum, SRM, Serum DEX, DEFI, Decentralized Finance, Decentralised Finance, Crypto, ERC20, Ethereum, Decentralize, Solana, SOL, SPL, Cross-Chain, Trading, Fastest, Fast, SerumBTC, SerumUSD, SRM Tokens, SPL Tokens"
+          content="HAMS Leverage, Serum, SRM, Serum DEX, DEFI, Decentralized Finance, Decentralised Finance, Crypto, ERC20, Ethereum, Decentralize, Solana, SOL, SPL, Cross-Chain, Trading, Fastest, Fast, SerumBTC, SerumUSD, SRM Tokens, SPL Tokens"
         />
         <meta
           name="description"
-          content="Mango Markets - Decentralised, cross-margin trading up to 10x leverage with lightning speed and near-zero fees."
+          content="HAMS Leverage - Decentralised, cross-margin trading up to 10x leverage with lightning speed and near-zero fees."
         />
         <link
           rel="apple-touch-icon"
@@ -143,7 +143,7 @@ function App({ Component, pageProps }) {
         <meta name="twitter:title" content="Mango Markets" />
         <meta
           name="twitter:description"
-          content="Mango Markets - Decentralised, cross-margin trading up to 20x leverage with lightning speed and near-zero fees."
+          content="HAMS Leverage - Decentralised, cross-margin trading up to 20x leverage with lightning speed and near-zero fees."
         />
         <meta
           name="twitter:image"
@@ -162,7 +162,7 @@ function App({ Component, pageProps }) {
           <FetchReferrer />
         </ErrorBoundary>
 
-        <ThemeProvider defaultTheme="Mango">
+        <ThemeProvider defaultTheme="Dark">
           <ViewportProvider>
             <div className="min-h-screen bg-th-bkg-1">
               <ErrorBoundary>

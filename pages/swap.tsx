@@ -62,7 +62,7 @@ export default function Swap() {
                   </p>
                   <a
                     className="mb-0 text-xs text-th-fgd-2"
-                    href="https://jup.ag/swap/USDC-MNGO"
+                    href="https://jup.ag/swap/USDC-HAMS"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

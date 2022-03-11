@@ -22,7 +22,7 @@ module.exports = {
       colors: {
         'light-theme': {
           orange: {
-            DEFAULT: '#FF9C24',
+            DEFAULT: '#2ABDD2',
             dark: '#F58700',
           },
           red: { DEFAULT: '#CC2929', dark: '#CC2929', muted: '#eba9a9' },
@@ -39,12 +39,12 @@ module.exports = {
         },
         'dark-theme': {
           yellow: {
-            DEFAULT: '#F2C94C',
+            DEFAULT: '#2ABDD2',
             dark: '#E4AF11',
           },
           red: { DEFAULT: '#CC2929', dark: '#AA2222', muted: '#571e20' },
           green: { DEFAULT: '#5EBF4D', dark: '#4BA53B', muted: '#365D31' },
-          orange: { DEFAULT: '#FF9C24' },
+          orange: { DEFAULT: '#2ABDD2' },
           'bkg-1': '#101012',
           'bkg-2': '#1B1B1F',
           'bkg-3': '#27272B',
@@ -54,24 +54,6 @@ module.exports = {
           'fgd-3': '#B3B3B3',
           'fgd-4': '#878787',
           'bkg-button': '#4E5152',
-        },
-        'mango-theme': {
-          yellow: {
-            DEFAULT: '#F2C94C',
-            dark: '#E4AF11',
-          },
-          red: { DEFAULT: '#F84638', dark: '#C7251A', muted: '#6d2832' },
-          green: { DEFAULT: '#AFD803', dark: '#91B503', muted: '#49601b' },
-          orange: { DEFAULT: '#FF9C24' },
-          'bkg-1': '#141026',
-          'bkg-2': '#1D1832',
-          'bkg-3': '#2A2440',
-          'bkg-4': '#37324D',
-          'fgd-1': '#E5E3EC',
-          'fgd-2': '#D2CEDE',
-          'fgd-3': '#C1BED3',
-          'fgd-4': '#706C81',
-          'bkg-button': '#464063',
         },
         'th-bkg-1': 'var(--bkg-1)',
         'th-bkg-2': 'var(--bkg-2)',
