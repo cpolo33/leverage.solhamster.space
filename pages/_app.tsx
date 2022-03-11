@@ -122,7 +122,7 @@ function App({ Component, pageProps }) {
       <Head>
         <title>HAMS Leverage</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="Mango Markets" />
+        <meta property="og:title" content="HAMS Leverage" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
@@ -140,14 +140,14 @@ function App({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Mango Markets" />
+        <meta name="twitter:title" content="HAMS Leverage" />
         <meta
           name="twitter:description"
           content="HAMS Leverage - Decentralised, cross-margin trading up to 20x leverage with lightning speed and near-zero fees."
         />
         <meta
           name="twitter:image"
-          content="https://www.mango.markets/socials/twitter-image-1200x600.png?34567878"
+          content="https://i.ibb.co/4VwjYJK/photo-2021-12-11-01-43-59.jpg"
         />
         <meta name="google" content="notranslate" />
         <link rel="manifest" href="/manifest.json"></link>
