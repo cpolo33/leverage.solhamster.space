@@ -85,7 +85,7 @@ const TopBar = () => {
                     ],
                     [
                       t('learn'),
-                      'https://docs.mango.markets/',
+                      'https://gitbook.solhamster.space/',
                       true,
                       <LightBulbIcon className="h-4 w-4" key="learn" />,
                     ],
