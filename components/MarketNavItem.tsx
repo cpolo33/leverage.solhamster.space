@@ -49,17 +49,15 @@ const MarketNavItem: FunctionComponent<MarketNavItemProps> = ({
     <div className="text-th-fgd-3">
       <div className="flex items-center">
         <button
-          className="mr-2 flex w-full items-center justify-between font-normal"
+          className={`flex w-full items-center justify-between px-2 py-2 font-normal hover:bg-th-bkg-4 hover:text-th-primary  ${
+            asPath.includes(market.name) ||
+            (asPath === '/' && initialMarket.name === market.name)
+              ? 'text-th-primary'
+              : 'text-th-fgd-1'
+          }`}
           onClick={() => selectMarket(market)}
         >
-          <div
-            className={`default-transition flex w-full items-center whitespace-nowrap py-1.5 text-xs hover:text-th-primary ${
-              asPath.includes(market.name) ||
-              (asPath === '/' && initialMarket.name === market.name)
-                ? 'text-th-primary'
-                : 'text-th-fgd-1'
-            }`}
-          >
+          <div className={`flex w-full items-center whitespace-nowrap text-xs`}>
             <div className="flex items-center">
               <img
                 alt=""
@@ -73,19 +71,10 @@ const MarketNavItem: FunctionComponent<MarketNavItemProps> = ({
               {getMarketLeverage(mangoGroup, mangoGroupConfig, market)}x
             </span>
           </div>
-          <div
-            className={`text-xs ${
-              market
-                ? market.change24h >= 0
-                  ? 'text-th-green'
-                  : 'text-th-red'
-                : 'text-th-fgd-4'
-            }`}
-          >
-            {market ? `${(market.change24h * 100).toFixed(1)}%` : ''}
-          </div>
         </button>
-        <FavoriteMarketButton market={market} />
+        <div className="ml-2">
+          <FavoriteMarketButton market={market} />
+        </div>
       </div>
     </div>
   )
