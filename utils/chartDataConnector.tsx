@@ -1,6 +1,7 @@
 import { ChartTradeType } from '../@types/types'
 
-const baseUrl = 'https://event-history-api-candles.herokuapp.com'
+//const baseUrl = 'https://event-history-api-candles.herokuapp.com'
+const baseUrl = 'https://ssc-dao.genesysgo.net'
 // const baseUrl = 'http://localhost:4000'
 
 export default class ChartApi {
