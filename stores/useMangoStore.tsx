@@ -43,8 +43,8 @@ import { IOrderLineAdapter } from '../public/charting_library/charting_library'
 export const ENDPOINTS: EndpointInfo[] = [
   {
     name: 'mainnet',
-    url: process.env.NEXT_PUBLIC_ENDPOINT || 'https://mango.rpcpool.com',
-    websocket: process.env.NEXT_PUBLIC_ENDPOINT || 'https://mango.rpcpool.com',
+    url: process.env.NEXT_PUBLIC_ENDPOINT || 'https://ssc-dao.genesysgo.net',
+    websocket: process.env.NEXT_PUBLIC_ENDPOINT || 'https://ssc-dao.genesysgo.net,
     custom: false,
   },
   {
